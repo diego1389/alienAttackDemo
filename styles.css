@@ -1,0 +1,54 @@
+#stage
+{
+	width: 300px;
+	height: 300px;
+	position: relative;
+}
+
+
+#background
+{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-image: url(./images/background.png);
+}
+
+#cannon{
+	width: 20px;
+	height: 20px;
+	top: 280px;
+	left: 140px;
+	position: absolute;
+	-webkit-transition: left 2s ease-out 0s;
+	-moz-transition: left 2s ease-out 0s;
+	transition: left 2s ease-out 0s;
+	background-image: url(./images/cannon.png);
+}
+
+#alien{
+	width: 20px;
+	height: 20px;
+	top: 20px;
+	left: 20px;
+	position: absolute;
+	-webkit-transition: left 2s ease-out 0s;
+	-moz-transition: left 2s ease-out 0s;
+	transition: left 2s ease-out 0s;
+	background-image: url(./images/alien.png);
+}
+
+#missile{
+	width: 10px;
+	height: 10px;
+	top: 270px;
+	left: 145px;
+	position: absolute;
+	-webkit-transition: left 2s ease-out 0s;
+	-moz-transition: left 2s ease-out 0s;
+	transition: left 2s ease-out 0s;
+	background-image: url(./images/missile.png);
+}
+

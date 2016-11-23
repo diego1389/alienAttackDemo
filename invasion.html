@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	 <title>Alien Attack!</title>
+	 <link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="./jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="invasion-logic.js"></script>
+</head>
+
+<body>
+<div id="stage">
+	<div id="background"></div>
+	<div id="cannon"></div>
+	<div id="missile"></div>
+	<div id="alien"></div>
+</div>
+<h3>Enter the X and Y position (0-300), then click fire! </h3>
+<h4 id="remainingGuesses"></h4>
+<form>
+	<input id="guessX" type="text" name="guessY" placeholder="Enter X position" autofocus>
+	<input id="guessY" type="text" name="guessY" placeholder="Enter Y position" autofocus>
+	<input onclick="return playGame()" id="fire" type="submit" name="fire" value="Fire">
+</form>
+<h4 id="result"></h4>
+</body>
+</html>
